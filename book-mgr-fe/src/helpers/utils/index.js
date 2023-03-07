@@ -1,5 +1,4 @@
 import { message } from "ant-design-vue";
-import { getKeyThenIncreaseKey } from "ant-design-vue/lib/message";
 
 export const result = (response, authShowErrorMsg = true) => {
   const { data } = response;
